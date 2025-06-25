@@ -70,7 +70,7 @@
 
         <div class="about-img">
 
-            <img src="about2.png" alt="about">
+            <img src="about1.png" alt="about">
 
         </div>
 
@@ -206,7 +206,7 @@
 
     </section>
 
-    <h1 class="sub-title">My <span>Skills</span></h1>
+    
 
     <section>
 
@@ -263,6 +263,36 @@
                     </div>
 
                 </div><br/>
+                    <div class="bar"><i class="fa-brands fa-python fa-beat" style="color: #306998;"></i>
+
+                    <div class="info">
+
+                        <span>JavaScript<span>
+
+                    </div>
+
+                    <div class="progress-line javascript">
+
+                        <span> </span>
+
+                    </div>
+                        </div><br/>
+
+                    <div class="bar"><i class="fa-brands fa-python fa-beat" style="color: #306998;"></i>
+
+                    <div class="info">
+
+                    <span>Mysql<span>
+
+                    </div>
+                    
+
+                    <div class="progress-line Mysql">
+
+                    <span> </span>
+
+                    </div>
+                    </div><br/>
 
                 <div class="bar"><i class="fa-solid fa-file-excel fa-beat" style="color: #217346;" ></i>
 
@@ -315,7 +345,7 @@
 
         </div>
 
-        <div class="container1">
+<!--          <div class="container1">
 
             <br><br><br><br> <h1 class="heading1">Professional Skills</h1>
 
@@ -388,7 +418,7 @@
 
             </div>
 
-        </div>
+        </div> --> 
 
     </section>
 
@@ -433,7 +463,7 @@
         <div class="contact-form">
 
 
-            <form action="https://formsubmit.co/prabhugouda48@gmail.com" method="post">
+            <form id="myForm" action="mailto:prabhugouda48@gmail.com" method="post" enctype="text/plain">
 
                 
                 <input type="text" name="Name" placeholder="Name" required>
@@ -450,7 +480,10 @@
 
                 <input type="hidden" name="_template" value="table">
 
-                <input type="submit" value="submit" class="send">
+<!--                 <input type="submit" value="submit" class="send"> -->
+                <button type="button" onclick="submitForm()" class="send">Submit</button>
+                
+                
 
             </form>
         </div>
