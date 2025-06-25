@@ -189,8 +189,8 @@ body {
 .about-img img {
     padding-bottom: 20%;
     max-width: 600px;
-    height: 50%;
-    width: 60%;
+    height: 50px;
+    width: 60px;
     border-radius: 8px;
 }
 .about-text h2 {
